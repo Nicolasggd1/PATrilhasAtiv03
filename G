@@ -1,6 +1,6 @@
 using System;
 
-namespace matheus
+namespace 
 {
 	class Program
 	{
