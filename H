@@ -1,0 +1,42 @@
+using System;
+
+namespace 
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+	       Console.WriteLine("Digite um numero com ponto flutuante:");
+           int num1 = Convert.ToInt32(Console.ReadLine());
+           
+           
+           
+         
+           
+
+           if (num1 <0)
+
+           {
+		 
+		 Console.WriteLine("o  numero e negativo: ");
+            Console.ReadLine();
+           } 
+           
+         
+           
+           if (num1 >0)
+
+           {
+		 Console.WriteLine("o  numero e positivo :");
+		 Console.ReadLine();
+		 
+		 
+           } 
+           
+           
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
