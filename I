@@ -1,0 +1,42 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("digite um numero inteiro:");
+			 int num1 = int.Parse(Console.ReadLine());
+			 
+			 
+			 Console.WriteLine("digite um numero inteiro:");
+			 int num2 = int.Parse(Console.ReadLine());
+			  
+			  
+			  
+			  int diferenca = Math.Abs(num1 - num2);
+
+			    if (diferenca < 10)
+        {
+			    	
+           
+		Console.WriteLine("A diferença entre os números é menor que 10.");
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine("A diferença entre os números é maior que 10.");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
